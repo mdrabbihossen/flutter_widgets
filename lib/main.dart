@@ -1,20 +1,18 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_widgets/widgets/custom_paint.dart';
+import 'package:flutter_widgets/widgets/data_table.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
-  const MyApp({Key? key}) : super(key: key);
-
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: CustomPaintWidget(),
+      home: DataTableWidget(),
     );
   }
 }
