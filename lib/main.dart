@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'package:flutter_widgets/widgets/data_table.dart';
+import 'package:flutter_widgets/widgets/hero_widgets/screen-1.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: DataTableWidget(),
+      home: Screen1(),
     );
   }
 }
