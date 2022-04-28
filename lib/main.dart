@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'package:flutter_widgets/widgets/hero_widgets/screen-1.dart';
+import 'package:flutter_widgets/widgets/bottom_navBar.dart';
 
 void main() {
   runApp(MyApp());
@@ -12,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Screen1(),
+      home: BottomBar(),
     );
   }
 }
