@@ -13,8 +13,8 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
     return Scaffold(
       drawer: Drawer(
         child: ListView(
-          children: <Widget> [
-            
+          children: <Widget>[
+            Container(),
           ],
         ),
       ),
